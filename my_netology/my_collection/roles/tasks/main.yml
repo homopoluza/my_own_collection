@@ -1,0 +1,6 @@
+---
+# tasks file for myrole
+- name  : run my module
+    my_new_module:
+    path: "{{ my_path }}"
+    content: "{{ my_content }}"
